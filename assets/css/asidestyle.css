@@ -1,0 +1,85 @@
+.titulo {
+    border: double 5px;
+    background-color: gold;
+    text-align: center;
+    padding: 20px;
+}
+
+.barranav {
+    background-color: rgb(85, 109, 231);
+    max-width: 100%;
+    height: 70px;
+    text-align: center;
+    margin: auto;
+
+}
+
+.barranav li {
+    display: inline-block;
+    color: white;
+    border: solid 1px black;
+    padding-left: 90px;
+    padding-right: 90px;
+    background-color: rgb(240, 110, 74);
+    margin-left: 100px;
+    margin-top: 25px;
+    font-size: 20px;
+    font-family: "NunitoSans-Bold", Arial, Helvetica, sans-serif;
+
+
+}
+
+.barranav li:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: .2s ease-in;
+}
+
+aside {
+    float: left;
+    background-color: white;
+    width: 300px;
+    margin-top: 40px;
+    padding: 30px;
+    box-sizing: border-box;
+    border: solid 1px;
+    box-sizing: border-box var(gray);
+
+}
+
+.widget h3 {
+    background-color: rgb(240, 110, 74);
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 10px;
+    font-family: "NunitoSans-Bold", Arial, Helvetica, sans-serif;
+    border-top: solid 1px var(--secondary-color-dark);
+    border-bottom: solid 1px var(--secondary-color-dark);
+}
+
+.widget h3:hover {
+    background-color: mediumblue;
+    color: white;
+    cursor: pointer;
+    transition: .2s ease-in;
+}
+
+.widget form input[type="email"],
+.widget form input[type="password"] {
+
+    height: 30px;
+    width: 240px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.widget form input[type="submit"] {
+
+    width: 240px;
+    height: 30px;
+    background-color: rgb(85, 109, 231);
+    color: white;
+}
